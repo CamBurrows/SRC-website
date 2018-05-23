@@ -1,0 +1,20 @@
+nav {
+    a {
+        font-family: 'bebas';
+        font-size: 18pt;
+        color: black;
+        &:hover { text-decoration:  none}
+    }
+
+
+    .nav-item {
+        text-align : center;
+        margin: 20px
+    }
+
+    .nav-icon {
+        height: 37px;
+        padding-bottom: 5px
+    }
+
+}

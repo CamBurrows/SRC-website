@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/bebas/Bebas Neue.eot');
+    src: url('../fonts/bebas/Bebas Neue.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bebas/bebas neue.woff2') format('woff2'),
+        url('../fonts/bebas/bebas neue.woff') format('woff'),
+        url('../fonts/bebas/Bebas Neue.ttf') format('truetype'),
+        url('../fonts/bebas/BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/proxima-nova/Proxima Nova.eot');
+    src: url('../fonts/proxima-nova/Proxima Nova.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proxima-nova/Proxima Nova.woff2') format('woff2'),
+        url('../fonts/proxima-nova/Proxima Nova.woff') format('woff'),
+        url('../fonts/proxima-nova/Proxima Nova.ttf') format('truetype'),
+        url('../fonts/proxima-nova/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
