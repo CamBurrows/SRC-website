@@ -2,6 +2,10 @@
 @import 'navbar';
 @import 'button';
 
+$primary-red: #ee1d23;
+$primary-yellow: #faaf18;
+$primary-blue: #185494;
+
 h1 {
     font-family: 'bebas';
     color: white;
@@ -40,7 +44,7 @@ h3 {
 h4 {
     font-family: 'proxima-nova';
     color: black;
-    font-size: 20pt
+    font-size: 16pt
 }
 
 footer {
@@ -65,6 +69,78 @@ footer {
     max-width: 80%
 }
 
+#red {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-red;
+    height: inherit;
+}
+
+#yellow {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-yellow;
+    height: inherit;
+}
+
+#blue {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-blue;
+    height: inherit;
+}
+
+.section {
+    height: 100%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.large-button {
+    
+    padding: 5%;
+
+    h3 {
+     text-align: center
+    }
+
+    h4 {
+        padding-left: 5%;
+        padding-right: 5%
+    }
+}
+
+.learn {
+    background: url("../images/bk-fries.png");
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.learn-active {
+    background: linear-gradient( #eb000846, #eb000846), url("../images/bk-fries.png");
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.careers {
+    background: url("../images/happy-guy.png");
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.careers-active {
+    background: linear-gradient( #faaf184b, #faaf184b), url("../images/happy-guy.png");
+    background-size: cover;
+    background-position: right bottom;
+}
 
 
+.locations {
+    background: url("../images/map-x.png");
+    background-size: cover;
+    background-position: right bottom;
+
+}
+
+.locations-active {
+    background: linear-gradient(to right, rgba(11, 55, 201, 0.2), rgba(11, 55, 201, 0.2)), url("../images/map-x.png") ;
+    background-size: cover;
+    background-position: right bottom;
+
+}
 

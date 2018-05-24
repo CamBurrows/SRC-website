@@ -85,7 +85,7 @@
 	<!-- hero image -->
 	<div class="hero col-sm-12">
 		<div class="container">
-			<div class="hero-caption col-sm-6">
+			<div class="hero-caption col-md-6">
 				<h1>
 					Career Focused
 				</h1>
@@ -99,37 +99,58 @@
 	<!-- hero image ends -->
 
 	<!-- bottom button section begin -->
-	<div class='row'>
-		<div class="button-section col-sm-12">
-			<div class='row'>
-				<div class="section col-sm-4">
-					<div class="highlight col-sm-1" id="red">
-					</div>
+
+	<div class='row no-gutters button-section'>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="about-id">
+				<div class="highlight col-1" id="red">
+				</div>
+				<div class="col-11 large-button learn">
 					<h3>
 						Learn more about src
 					</h3>
+					<a href="about.html"></a>
+					<h4>
+						After 31 years in the industry, we know a thing or two.
+					</h4>
 				</div>
+			</div>
+		</div>
 
-				<div class="section col-sm-4">
-					<div class="highlight col-sm-1" id="yellow">
-					</div>
-					<div class="col-sm-11">
-						<h3>
-							Careers at src
-						</h3>
-					</div>
+		<div class="col-sm">
+			<div class="section row no-gutters" id="careers-id">
+				<div class="highlight col-1" id="yellow">
 				</div>
+				<div class="col-11 large-button careers">
+					<h3>
+						Careers at src
+					</h3>
+					<a href="careers.html"></a>
+					<h4>
+						If you are motivated and want to test your potential, Savannah Restaurants is the perfect place for you.
+					</h4>
+				</div>
+			</div>
+		</div>
 
-				<div class="section col-sm-4">
-					<div class="highlight col-sm-1" id="blue">
-					</div>
+		<div class="col-sm">
+			<div class="section row no-gutters" id="location-id">
+				<div class="highlight col-1" id="blue">
+				</div>
+				<div class="col-11 large-button locations">
 					<h3>
 						Find a bk
 					</h3>
+					<a href="locations.html"></a>
+					<h4>
+						11 Restaurants located all across the greater Savannah.
+					</h4>
 				</div>
 			</div>
 		</div>
 	</div>
+
 
 	<!-- bottom button section ends -->
 
@@ -140,6 +161,37 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
+	
+	<!-- Custom js -->
+	<script>
+	$(document).ready(function(){
+
+	$(".section").click(function(){
+    window.location=$(this).find("a").attr("href"); 
+    return false;
+	});
+
+	$("#about-id").hover(function(){
+		$(".learn").addClass("learn-active")
+	}, function(){
+		$(".learn").removeClass("learn-active")
+	})
+
+	$("#careers-id").hover(function(){
+		$(".careers").addClass("careers-active")
+	}, function(){
+		$(".careers").removeClass("careers-active")
+	})
+
+	$("#location-id").hover(function(){
+		$(".locations").addClass("locations-active")
+		console.log("hovered on locations tab")
+	}, function(){
+		$(".locations").removeClass("locations-active")
+	})
+
+	})
+	</script>
 
 </body>
 
