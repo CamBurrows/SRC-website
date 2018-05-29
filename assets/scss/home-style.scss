@@ -28,7 +28,8 @@ h2 {
 
 .hero-caption {
     padding-top: 3%;
-    padding-bottom: 5%
+    padding-bottom: 5%;
+    padding-left: 0%
 }
 
 .apply-button {
@@ -47,22 +48,42 @@ h4 {
     font-size: 16pt
 }
 
-footer {
-    a {
+.footer-wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.363), transparent, transparent);
+}
+
+.footer {
+
+    a, h6 {
         font-family: 'bebas';
         color: black;
-        font-size: 18pt
+        font-size: 12pt
     }
+    
 
     h5 {
         font-family: 'proxima-nova';
         color: black;
-        font-size: 16pt
+        font-size: 10pt;
+        padding-top: 4%
     }
-}
 
-.wrapper {
-    max-width: 100vh
+    #legals {
+        text-align: left;
+        padding-top: 2%;
+        padding-left: 2%
+    }
+    
+    #copywrite {
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    #address {
+        text-align: right;
+        padding-top: 2%
+    }
+
 }
 
 .container {

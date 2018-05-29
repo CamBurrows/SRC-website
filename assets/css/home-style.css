@@ -52,6 +52,7 @@ h2 {
 .hero-caption {
   padding-top: 3%;
   padding-bottom: 5%;
+  padding-left: 0%;
 }
 
 .apply-button {
@@ -80,19 +81,33 @@ h4 {
   font-size: 16pt;
 }
 
-footer a {
-  font-family: "bebas";
-  color: black;
-  font-size: 18pt;
-}
-footer h5 {
-  font-family: "proxima-nova";
-  color: black;
-  font-size: 16pt;
+.footer-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.363), transparent, transparent);
 }
 
-.wrapper {
-  max-width: 100vh;
+.footer a, .footer h6 {
+  font-family: "bebas";
+  color: black;
+  font-size: 12pt;
+}
+.footer h5 {
+  font-family: "proxima-nova";
+  color: black;
+  font-size: 10pt;
+  padding-top: 4%;
+}
+.footer #legals {
+  text-align: left;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+.footer #copywrite {
+  text-align: center;
+  padding-top: 2%;
+}
+.footer #address {
+  text-align: right;
+  padding-top: 2%;
 }
 
 .container {
