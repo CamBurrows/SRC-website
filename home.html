@@ -153,31 +153,33 @@
 
 	<!-- Footer begins -->
 	<div class="footer-wrapper">
-	<div class="container">
-		<div class="footer">
-			<div class="row">
-				<div class="col-sm-3" id="legals">
-					<a href="#">
-						Legal Info
+		<div class="container">
+			<div class="footer">
+				<div class="row">
+					<div class="col-sm-3" id="legals">
+						<a href="#">
+							Legal Info
+						</a>
+						<a href="#">
 						<br> Privacy Policy
-					</a>
-				</div>
-				<div class="col-sm-6" id="copywrite">
-					<h5>
-						© 2018 Savannah Restaurants Corp. & Burger King Corporation. All rights reserved.
-					</h5>
-				</div>
-				<div class="col-sm-3" id="address">
-					<h6>
-						10 A Mall Court
-						<br> Savannah GA 31406
-						<br> (912)353-9090
-					</h6>
+						</a>
+					</div>
+					<div class="col-sm-6" id="copywrite">
+						<h5>
+							© 2018 Savannah Restaurants Corp. & Burger King Corporation. All rights reserved.
+						</h5>
+					</div>
+					<div class="col-sm-3" id="address">
+						<h6>
+							10 A Mall Court
+							<br> Savannah GA 31406
+							<br> (912)353-9090
+						</h6>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 	<!-- Footer Ends -->
 
 	<!-- jQuery and bootstrap cdn -->
@@ -188,35 +190,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
 
-	<!-- Custom js -->
-	<script>
-		$(document).ready(function () {
-
-			$(".section").click(function () {
-				window.location = $(this).find("a").attr("href");
-				return false;
-			});
-
-			$("#about-id").hover(function () {
-				$(".learn").addClass("learn-active")
-			}, function () {
-				$(".learn").removeClass("learn-active")
-			})
-
-			$("#careers-id").hover(function () {
-				$(".careers").addClass("careers-active")
-			}, function () {
-				$(".careers").removeClass("careers-active")
-			})
-
-			$("#location-id").hover(function () {
-				$(".locations").addClass("locations-active")
-			}, function () {
-				$(".locations").removeClass("locations-active")
-			})
-
-		})
-	</script>
+	<!-- Custom js for button-section hovers -->
+	<script type="text/javascript" src="assets/javascript/button-sect-hover.js"></script>
 
 </body>
 

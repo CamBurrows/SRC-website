@@ -1,0 +1,71 @@
+@import 'fontface';
+@import 'navbar';
+@import 'button';
+@import 'footer';
+@import 'button-section';
+
+$primary-red: #ee1d23;
+$primary-yellow: #faaf18;
+$primary-blue: #185494;
+
+.container {
+    max-width: 80%
+}
+
+h1 {
+    font-family: 'bebas';
+    color: white;
+    font-size: 72pt
+}
+
+h2 {
+    font-family: 'bebas';
+    color: white;
+    font-size: 48pt
+}
+
+p {
+    font-family: 'proxima-nova';
+    color: white;
+    font-size: 26pt
+}
+
+.subheader {
+    background-color: $primary-blue
+}
+
+.hero {
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5), transparent), url('../images/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.learn {
+    @include button-section-button ("../images/comment.png")
+}
+
+.learn-active {
+    @include button-section-button-active (#eb000846, "../images/comment.png")
+}
+
+.careers {
+    @include button-section-button ("../images/burger.png")
+}
+
+.careers-active {
+    @include button-section-button-active (#faaf184b, "../images/burger.png")
+}
+
+.locations {
+    @include button-section-button ("../images/map-x.png")
+}
+
+.locations-active {
+    @include button-section-button-active (rgba(11, 55, 201, 0.2), "../images/map-x.png")
+}
+
+.leadership-button .careers-button {
+    @include red-button
+}

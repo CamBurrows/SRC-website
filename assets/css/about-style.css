@@ -92,6 +92,10 @@ nav .nav-icon {
   cursor: pointer;
 }
 
+.container {
+  max-width: 80%;
+}
+
 h1 {
   font-family: "bebas";
   color: white;
@@ -99,75 +103,49 @@ h1 {
 }
 
 h2 {
+  font-family: "bebas";
+  color: white;
+  font-size: 48pt;
+}
+
+p {
   font-family: "proxima-nova";
   color: white;
   font-size: 26pt;
 }
 
+.subheader {
+  background-color: #185494;
+}
+
 .hero {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.185), transparent), url("../images/workers-hero.jpg");
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5), transparent), url("../images/about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.hero-caption {
-  padding-top: 3%;
-  padding-bottom: 5%;
-  padding-left: 0%;
-}
-
-.apply-button {
-  border: 4px solid #ee1d23;
-  font-family: "bebas";
-  font-size: 32pt;
-  color: #ee1d23;
-  background: rgba(0, 0, 0, 0.363);
-  padding: 6px 24px;
-  margin-top: 16px;
-}
-.apply-button:hover {
-  color: black;
-  background-color: #ee1d23;
-}
-
-h3 {
-  font-family: "bebas";
-  color: black;
-  font-size: 36pt;
-}
-
-h4 {
-  font-family: "proxima-nova";
-  color: black;
-  font-size: 16pt;
-}
-
-.container {
-  max-width: 80%;
-}
-
 .learn {
-  background: url("../images/bk-fries.png");
+  background: url("../images/comment.png");
   background-size: cover;
   background-position: right bottom;
 }
 
 .learn-active {
-  background: linear-gradient(#eb000846, #eb000846), url("../images/bk-fries.png");
+  background: linear-gradient(#eb000846, #eb000846), url("../images/comment.png");
   background-size: cover;
   background-position: right bottom;
 }
 
 .careers {
-  background: url("../images/happy-guy.png");
+  background: url("../images/burger.png");
   background-size: cover;
   background-position: right bottom;
 }
 
 .careers-active {
-  background: linear-gradient(#faaf184b, #faaf184b), url("../images/happy-guy.png");
+  background: linear-gradient(#faaf184b, #faaf184b), url("../images/burger.png");
   background-size: cover;
   background-position: right bottom;
 }
@@ -184,20 +162,18 @@ h4 {
   background-position: right bottom;
 }
 
-@media (min-width: 1640px) {
-  .hero-caption {
-    padding-top: 6%;
-    padding-bottom: 9%;
-    padding-left: 0%;
-  }
-
-  h1 {
-    font-size: 80pt;
-  }
-
-  h2 {
-    font-size: 32pt;
-  }
+.leadership-button .careers-button {
+  border: 4px solid #ee1d23;
+  font-family: "bebas";
+  font-size: 32pt;
+  color: #ee1d23;
+  background: rgba(0, 0, 0, 0.363);
+  padding: 6px 24px;
+  margin-top: 16px;
+}
+.leadership-button .careers-button:hover {
+  color: black;
+  background-color: #ee1d23;
 }
 
-/*# sourceMappingURL=css/home-style.css.map */
+/*# sourceMappingURL=css/about-style.css.map */

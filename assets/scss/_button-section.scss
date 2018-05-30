@@ -1,0 +1,67 @@
+$primary-red: #ee1d23;
+$primary-yellow: #faaf18;
+$primary-blue: #185494;
+
+@mixin button-section-button($img-url){
+    background: url($img-url);
+    background-size: cover;
+    background-position: right bottom;
+}
+
+@mixin button-section-button-active($overlay-color, $img-url){
+    background: linear-gradient($overlay-color, $overlay-color), url($img-url);
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.section {
+    height: 100%;
+    // &:hover {
+    //     cursor: pointer;
+    // }
+}
+
+#red {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-red;
+    height: inherit;
+}
+
+#yellow {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-yellow;
+    height: inherit;
+}
+
+#blue {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-blue;
+    height: inherit;
+}
+
+.large-button {
+    
+    padding: 5%;
+
+    h3 {
+     text-align: center
+    }
+
+    h4 {
+        padding-left: 5%;
+        padding-right: 5%
+    }
+
+    // &:hover {
+    //     cursor: inherit
+    // }
+}
+
+// .highlight {
+//     &:hover {
+//         cursor: inherit
+//     }
+// }
+
+.button-section {
+    &:hover {
+        cursor: pointer
+    }
+}

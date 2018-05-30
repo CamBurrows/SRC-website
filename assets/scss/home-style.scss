@@ -1,6 +1,8 @@
 @import 'fontface';
 @import 'navbar';
 @import 'button';
+@import 'footer';
+@import 'button-section';
 
 $primary-red: #ee1d23;
 $primary-yellow: #faaf18;
@@ -19,7 +21,7 @@ h2 {
 }
 
 .hero {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.185), transparent), url('../images/workers-hero.png');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.185), transparent), url('../images/workers-hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,120 +50,46 @@ h4 {
     font-size: 16pt
 }
 
-.footer-wrapper {
-    background: linear-gradient( rgba(0, 0, 0, 0.363), transparent, transparent);
-}
-
-.footer {
-
-    a, h6 {
-        font-family: 'bebas';
-        color: black;
-        font-size: 12pt
-    }
-    
-
-    h5 {
-        font-family: 'proxima-nova';
-        color: black;
-        font-size: 10pt;
-        padding-top: 4%
-    }
-
-    #legals {
-        text-align: left;
-        padding-top: 2%;
-        padding-left: 2%
-    }
-    
-    #copywrite {
-        text-align: center;
-        padding-top: 2%;
-    }
-    
-    #address {
-        text-align: right;
-        padding-top: 2%
-    }
-
-}
-
 .container {
     max-width: 80%
 }
 
-#red {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-red;
-    height: inherit;
-}
-
-#yellow {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-yellow;
-    height: inherit;
-}
-
-#blue {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent), $primary-blue;
-    height: inherit;
-}
-
-.section {
-    height: 100%;
-    &:hover {
-        cursor: pointer;
-    }
-}
-
-.large-button {
-    
-    padding: 5%;
-
-    h3 {
-     text-align: center
-    }
-
-    h4 {
-        padding-left: 5%;
-        padding-right: 5%
-    }
-}
-
 .learn {
-    background: url("../images/bk-fries.png");
-    background-size: cover;
-    background-position: right bottom;
+    @include button-section-button ("../images/bk-fries.png")
 }
 
 .learn-active {
-    background: linear-gradient( #eb000846, #eb000846), url("../images/bk-fries.png");
-    background-size: cover;
-    background-position: right bottom;
+    @include button-section-button-active (#eb000846, "../images/bk-fries.png")
 }
 
 .careers {
-    background: url("../images/happy-guy.png");
-    background-size: cover;
-    background-position: right bottom;
+    @include button-section-button ("../images/happy-guy.png")
 }
 
 .careers-active {
-    background: linear-gradient( #faaf184b, #faaf184b), url("../images/happy-guy.png");
-    background-size: cover;
-    background-position: right bottom;
+    @include button-section-button-active (#faaf184b, "../images/happy-guy.png")
 }
 
-
 .locations {
-    background: url("../images/map-x.png");
-    background-size: cover;
-    background-position: right bottom;
-
+    @include button-section-button ("../images/map-x.png")
 }
 
 .locations-active {
-    background: linear-gradient(to right, rgba(11, 55, 201, 0.2), rgba(11, 55, 201, 0.2)), url("../images/map-x.png") ;
-    background-size: cover;
-    background-position: right bottom;
+    @include button-section-button-active (rgba(11, 55, 201, 0.2), "../images/map-x.png")
+}
 
+@media (min-width: 1640px) {
+    .hero-caption {
+        padding-top: 6%;
+        padding-bottom: 9%;
+        padding-left: 0%
+    }
+
+    h1 {
+        font-size: 80pt
+    }
+    h2 {
+        font-size: 32pt
+    }
 }
 
