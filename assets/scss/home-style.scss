@@ -54,6 +54,10 @@ h2 {
     max-width: 80%
 }
 
+.construct {
+    color:$primary-blue
+}
+
 .learn {
     @include button-section-button ("../images/bk-fries.png")
 }
