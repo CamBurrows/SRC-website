@@ -125,19 +125,6 @@ h1 {
   margin-top: 8px;
 }
 
-h2 {
-  font-family: "bebas";
-  color: white;
-  font-size: 32pt;
-  margin-bottom: 18px;
-}
-
-p {
-  font-family: "proxima-nova-light";
-  color: white;
-  font-size: 16pt;
-}
-
 .subheader {
   background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.15), transparent), #185494;
   text-align: center;
@@ -152,28 +139,43 @@ p {
   position: relative;
 }
 
-.button-link {
-  width: inherit;
-}
-.button-link:hover {
-  text-decoration: none;
-}
-
-.bk-info {
-  padding-top: 4%;
-  padding-bottom: 4%;
+h2 {
+  font-family: "bebas";
+  color: white;
+  font-size: 30pt;
+  line-height: 22pt;
+  padding-top: 8px;
 }
 
-.r-symbol {
-  font-size: 18pt;
+h5 {
+  font-family: "proxima-nova-light";
+  color: white;
+  font-size: 16pt;
+}
+
+p {
+  font-family: "proxima-nova-light";
+  color: white;
+  font-size: 14pt;
+}
+
+.headshot {
+  width: 250px;
+  margin-bottom: 6px;
 }
 
 .hero-caption {
   padding-top: 4%;
+  padding-bottom: 6%;
 }
 
-.hero-buttons {
-  padding-top: 9%;
+.hero-caption2 {
+  padding-bottom: 6%;
+}
+
+.headshot-container {
+  text-align: center;
+  padding-bottom: 4%;
 }
 
 .learn {
@@ -221,29 +223,27 @@ p {
   padding: 6px 24px;
   margin-top: 16px;
   text-align: left;
-  line-height: 26pt;
-  font-size: 22pt;
-  padding: 8px 0px 8px 12px;
+  line-height: 28pt;
+  font-size: 24pt;
   display: block;
   width: inherit;
+  padding: 6px 0px 6px 12px;
+  margin-bottom: 10%;
 }
 .leadership-button:hover, .careers-button:hover {
   color: black;
   background-color: #ee1d23;
 }
 
-.careers-button {
-  margin-top: 34%;
+.button-link {
+  width: inherit;
+}
+.button-link:hover {
+  text-decoration: none;
 }
 
-@media (min-width: 1640px) {
-  .hero-buttons {
-    padding-top: 6%;
-  }
-
-  .careers-button {
-    margin-top: 10%;
-  }
+.r-symbol {
+  font-size: 18pt;
 }
 
-/*# sourceMappingURL=css/about-style.css.map */
+/*# sourceMappingURL=css/about-leadership.css.map */

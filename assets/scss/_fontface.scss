@@ -21,3 +21,27 @@
     font-weight: normal;
     font-style: normal
 }
+
+@font-face {
+    font-family: 'proxima-nova-light';
+    src: url('../fonts/proxima-nova-light/Proxima Nova Light.eot');
+    src: url('../fonts/proxima-nova-light/Proxima Nova Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proxima-nova-light/Proxima Nova Light.woff2') format('woff2'),
+        url('../fonts/proxima-nova-light/Proxima Nova Light.woff') format('woff'),
+        url('../fonts/proxima-nova-light/Proxima Nova Light.ttf') format('truetype'),
+        url('../fonts/proxima-nova-light/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'museo-sans';
+    src: url('../fonts/museo-sans/MuseoSansMedium.eot');
+    src: url('../fonts/museo-sans/MuseoSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/museo-sans/MuseoSans-Medium.woff2') format('woff2'),
+        url('../fonts/museo-sans/MuseoSansMedium.woff') format('woff'),
+        url('../fonts/museo-sans/MuseoSansMedium.ttf') format('truetype'),
+        url('../fonts/museo-sans/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+    font-weight: normal;
+    font-style: normal
+}

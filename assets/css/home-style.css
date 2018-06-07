@@ -12,6 +12,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "proxima-nova-light";
+  src: url("../fonts/proxima-nova-light/Proxima Nova Light.eot");
+  src: url("../fonts/proxima-nova-light/Proxima Nova Light.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima-nova-light/Proxima Nova Light.woff2") format("woff2"), url("../fonts/proxima-nova-light/Proxima Nova Light.woff") format("woff"), url("../fonts/proxima-nova-light/Proxima Nova Light.ttf") format("truetype"), url("../fonts/proxima-nova-light/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "museo-sans";
+  src: url("../fonts/museo-sans/MuseoSansMedium.eot");
+  src: url("../fonts/museo-sans/MuseoSansMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/museo-sans/MuseoSans-Medium.woff2") format("woff2"), url("../fonts/museo-sans/MuseoSansMedium.woff") format("woff"), url("../fonts/museo-sans/MuseoSansMedium.ttf") format("truetype"), url("../fonts/museo-sans/MuseoSansCyrl-500.svg#MuseoSansCyrl-500") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 nav a {
   font-family: "bebas";
   font-size: 18pt;
@@ -34,9 +48,9 @@ nav .nav-icon {
 }
 
 .footer a, .footer h6 {
-  font-family: "bebas";
+  font-family: "museo-sans";
   color: black;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 .footer h5 {
   font-family: "proxima-nova";
@@ -56,6 +70,7 @@ nav .nav-icon {
 .footer #address {
   text-align: right;
   padding-top: 2%;
+  padding-bottom: 18px;
 }
 
 .section {
@@ -78,12 +93,18 @@ nav .nav-icon {
 }
 
 .large-button {
-  padding: 5%;
+  padding: 7%;
 }
 .large-button h3 {
+  font-family: "bebas";
+  color: black;
+  font-size: 30pt;
   text-align: center;
 }
 .large-button h4 {
+  font-family: "proxima-nova";
+  color: black;
+  font-size: 16pt;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -99,7 +120,7 @@ h1 {
 }
 
 h2 {
-  font-family: "proxima-nova";
+  font-family: "proxima-nova-light";
   color: white;
   font-size: 26pt;
 }
@@ -130,18 +151,6 @@ h2 {
 .apply-button:hover {
   color: black;
   background-color: #ee1d23;
-}
-
-h3 {
-  font-family: "bebas";
-  color: black;
-  font-size: 36pt;
-}
-
-h4 {
-  font-family: "proxima-nova";
-  color: black;
-  font-size: 16pt;
 }
 
 .container {

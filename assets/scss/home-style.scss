@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'proxima-nova';
+    font-family: 'proxima-nova-light';
     color: white;
     font-size: 26pt
 }
@@ -38,17 +38,17 @@ h2 {
     @include red-button;
 }
 
-h3 {
-    font-family: 'bebas';
-    color: black;
-    font-size: 36pt
-}
+// h3 {
+//     font-family: 'bebas';
+//     color: black;
+//     font-size: 36pt
+// }
 
-h4 {
-    font-family: 'proxima-nova';
-    color: black;
-    font-size: 16pt
-}
+// h4 {
+//     font-family: 'proxima-nova';
+//     color: black;
+//     font-size: 16pt
+// }
 
 .container {
     max-width: 80%

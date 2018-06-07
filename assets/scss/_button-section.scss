@@ -38,27 +38,24 @@ $primary-blue: #185494;
 
 .large-button {
     
-    padding: 5%;
+    padding: 7%;
 
     h3 {
-     text-align: center
+        font-family: 'bebas';
+        color: black;
+        font-size: 30pt;
+        text-align: center
     }
 
     h4 {
+        font-family: 'proxima-nova';
+        color: black;
+        font-size: 16pt;
         padding-left: 5%;
         padding-right: 5%
     }
 
-    // &:hover {
-    //     cursor: inherit
-    // }
 }
-
-// .highlight {
-//     &:hover {
-//         cursor: inherit
-//     }
-// }
 
 .button-section {
     &:hover {
