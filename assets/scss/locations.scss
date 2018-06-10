@@ -1,0 +1,127 @@
+@import 'navbar';
+@import 'button';
+@import 'footer';
+@import 'fontface';
+@import 'button-section';
+
+$primary-red: #ee1d23;
+$primary-yellow: #faaf18;
+$primary-blue: #185494;
+
+.container {
+    max-width: 80%
+}
+
+h1 {
+    font-family: 'bebas';
+    color: white;
+    font-size: 50pt;
+    margin-bottom: 8px;
+    margin-top: 8px
+}
+
+.cta-btn {
+  text-align: center
+
+}
+
+.subheader {
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.15), transparent), $primary-blue;
+    text-align: center;
+    vertical-align: center
+}
+
+#map {
+  max-width: 100%;
+  height: 400px
+}
+
+h2 {
+    font-family: 'bebas';
+    color: white;
+    font-size: 32pt;
+    line-height: 35pt;
+    margin-top: -6px
+}
+
+h5 {
+    font-family: 'proxima-nova-light';
+    color: white;
+    font-size: 16pt
+}
+
+p {
+    font-family: 'proxima-nova-light';
+    color: white;
+    font-size: 14pt;
+    line-height: 24pt
+}
+
+.map-caption {
+  font-family: 'proxima-nova-light';
+  color: black;
+  font-size: 14pt;
+  line-height: 18pt
+}
+
+.headshot {
+    width: inherit;
+    margin-bottom: 6px
+}
+
+.hero-caption {
+    margin-top: 4%;
+}
+
+.hero-caption2 {
+    padding-bottom: 6%
+}
+
+.headshot-container {
+    text-align: center;
+    padding-bottom: 2%
+}
+
+
+.learn {
+    @include button-section-button ("../images/comment.png")
+}
+
+.learn-active {
+    @include button-section-button-active (#eb000846, "../images/comment.png")
+}
+
+.careers {
+    @include button-section-button ("../images/burger.png")
+}
+
+.careers-active {
+    @include button-section-button-active (#faaf184b, "../images/burger.png")
+}
+
+.locations {
+    @include button-section-button ("../images/map-x.png")
+}
+
+.locations-active {
+    @include button-section-button-active (rgba(11, 55, 201, 0.2), "../images/map-x.png")
+}
+
+.leadership-button, .careers-button {
+    @include red-button;
+    text-align: left;
+    line-height: 28pt;
+    font-size: 24pt;
+    display: block;
+    width: inherit;
+    padding: 6px 0px 6px 12px;
+    margin-bottom: 10%
+}
+
+.button-link {
+    width: inherit;
+
+    &:hover {
+        text-decoration: none
+    }
+}

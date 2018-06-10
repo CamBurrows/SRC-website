@@ -10,75 +10,324 @@
 	<!-- bootstrap cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/home-style.css">
+	<link rel="stylesheet" href="assets/css/locations.css">
 </head>
 
 <body>
 
 	<!-- navbar -->
-	<nav class="navbar">
+	<nav class="navbar navbar-light navbar-expand-lg">
 		<div class="container">
-			<img class="logo" src="assets/images/SRC-main-logo.png" alt="Savannah Restaurants Corporation">
+			<div class="navbar-brand">
+				<img class="logo" src="assets/images/SRC-main-logo.png" alt="Savannah Restaurants Corporation">
+			</div>
 
-			<ul class="nav justify-content-end">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-container" aria-controls="navbarSupportedContent"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-				<a href="index.html">
-					<li class="nav-item">
-						<div class="icon">
-							<img class="nav-icon" src="assets/images/home-icon.png" alt="Savannah BK Home" />
-						</div>
-						<div class="nav-heading">
-							Home
-						</div>
-					</li>
-				</a>
+			<div class="collapse navbar-collapse justify-content-end" id="collapsed-container">
+				<ul class="navbar-nav nav">
 
-				<a href="about.html">
-					<li class="nav-item">
-						<div class="icon">
-							<img class="nav-icon" src="assets/images/burger-icon.png" alt="Savannah BK About" />
-						</div>
-						<div class="nav-heading">
-							About
-						</div>
-					</li>
-				</a>
+					<a class="nav-link-custom" href="index.html">
+						<li class="nav-item nav-item-active">
+							<div class="icon">
+								<img class="nav-icon" src="assets/images/home-icon.png" alt="Savannah BK Home" />
+							</div>
+							<div class="nav-heading">
+								Home
+							</div>
+						</li>
+					</a>
 
-				<a href="careers.html">
-					<li class="nav-item">
-						<div class="icon">
-							<img class="nav-icon" src="assets/images/career-icon.png" alt="Savannah BK Careers" />
-						</div>
-						<div class="nav-heading">
-							Careers
-						</div>
-					</li>
-				</a>
+					<a class="nav-link-custom" href="about.html">
+						<li class="nav-item">
+							<div class="icon">
+								<img class="nav-icon" src="assets/images/burger-icon.png" alt="Savannah BK About" />
+							</div>
+							<div class="nav-heading">
+								About
+							</div>
+						</li>
+					</a>
 
-				<a href="#">
-					<li class="nav-item-active nav-item">
-						<div class="icon">
-							<img class="nav-icon" src="assets/images/location-icon.png" alt="Savannah BK Locations" />
-						</div>
-						<div class="nav-heading">
-							Locations
-						</div>
-					</li>
-				</a>
-				
+					<a class="nav-link-custom" href="careers.html">
+						<li class="nav-item">
+							<div class="icon">
+								<img class="nav-icon" src="assets/images/career-icon.png" alt="Savannah BK Careers" />
+							</div>
+							<div class="nav-heading">
+								Careers
+							</div>
+						</li>
+					</a>
 
-				
+					<a class="nav-link-custom" href="locations.html">
+						<li class="nav-item">
+							<div class="icon">
+								<img class="nav-icon" src="assets/images/location-icon.png" alt="Savannah BK Locations" />
+							</div>
+							<div class="nav-heading">
+								Locations
+							</div>
+						</li>
+					</a>
 
-			</ul>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<!-- navbar end -->
+	<div class="row subheader no-gutters">
+		<div class="col-sm-12">
+			<h1>
+				Locations
+			</h1>
+		</div>
+	</div>
 
-	<h1 class="construct">
-		Under Construction
-	</h1>
+	<div id="map"></div>
+
+	<!-- Location cards begins -->
+	<div class='row no-gutters button-section'>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="about-id">
+				<div class="highlight col-1" id="red">
+				</div>
+				<div class="col-11 large-button learn">
+					<h3>
+						Leave Us a Comment
+					</h3>
+					<a href="#"></a>
+					<h4>
+						We‘re always looking for new ways we can improve our business.
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="careers-id">
+				<div class="highlight col-1" id="yellow">
+				</div>
+				<div class="col-11 large-button careers">
+					<h3>
+						BK
+						<sup class="r-symbol">®</sup> Nutrition Facts
+					</h3>
+					<h4>
+						View the PDF to learn more about our products.
+					</h4>
+					<a href="nutrition-facts.html"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="location-id">
+				<div class="highlight col-1" id="blue">
+				</div>
+				<div class="col-11 large-button locations">
+					<h3>
+						Find a bk
+					</h3>
+					<a href="locations.html"></a>
+					<h4>
+						11 Restaurants located all across the greater Savannah area.
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
+	<div class='row no-gutters button-section'>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="about-id">
+				<div class="highlight col-1" id="red">
+				</div>
+				<div class="col-11 large-button learn">
+					<h3>
+						Leave Us a Comment
+					</h3>
+					<a href="#"></a>
+					<h4>
+						We‘re always looking for new ways we can improve our business.
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="careers-id">
+				<div class="highlight col-1" id="yellow">
+				</div>
+				<div class="col-11 large-button careers">
+					<h3>
+						BK
+						<sup class="r-symbol">®</sup> Nutrition Facts
+					</h3>
+					<h4>
+						View the PDF to learn more about our products.
+					</h4>
+					<a href="nutrition-facts.html"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="location-id">
+				<div class="highlight col-1" id="blue">
+				</div>
+				<div class="col-11 large-button locations">
+					<h3>
+						Find a bk
+					</h3>
+					<a href="locations.html"></a>
+					<h4>
+						11 Restaurants located all across the greater Savannah area.
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class='row no-gutters button-section'>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="about-id">
+				<div class="highlight col-1" id="red">
+				</div>
+				<div class="col-11 large-button learn">
+					<h3>
+						Leave Us a Comment
+					</h3>
+					<a href="#"></a>
+					<h4>
+						We‘re always looking for new ways we can improve our business.
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="careers-id">
+				<div class="highlight col-1" id="yellow">
+				</div>
+				<div class="col-11 large-button careers">
+					<h3>
+						BK
+						<sup class="r-symbol">®</sup> Nutrition Facts
+					</h3>
+					<h4>
+						View the PDF to learn more about our products.
+					</h4>
+					<a href="nutrition-facts.html"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="location-id">
+				<div class="highlight col-1" id="blue">
+				</div>
+				<div class="col-11 large-button locations">
+					<h3>
+						Find a bk
+					</h3>
+					<a href="locations.html"></a>
+					<h4>
+						11 Restaurants located all across the greater Savannah area.
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class='row no-gutters button-section'>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="about-id">
+				<div class="highlight col-1" id="red">
+				</div>
+				<div class="col-11 large-button learn">
+					<h3>
+						Leave Us a Comment
+					</h3>
+					<a href="#"></a>
+					<h4>
+						We‘re always looking for new ways we can improve our business.
+					</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="careers-id">
+				<div class="highlight col-1" id="yellow">
+				</div>
+				<div class="col-11 large-button careers">
+					<h3>
+						BK
+						<sup class="r-symbol">®</sup> Nutrition Facts
+					</h3>
+					<h4>
+						View the PDF to learn more about our products.
+					</h4>
+					<a href="nutrition-facts.html"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm">
+			<div class="section row no-gutters" id="location-id">
+				<div class="highlight col-1" id="blue">
+				</div>
+				<div class="col-11 large-button locations">
+					<h3>
+						Find a bk
+					</h3>
+					<a href="locations.html"></a>
+					<h4>
+						11 Restaurants located all across the greater Savannah area.
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer-wrapper">
+		<div class="container">
+			<div class="footer">
+				<div class="row">
+					<div class="col-sm-3" id="legals">
+						<a href="#">
+							Legal Info
+						</a>
+						<a href="#">
+							<br> Privacy Policy
+						</a>
+					</div>
+					<div class="col-sm-6" id="copywrite">
+						<h5>
+							© 2018 Savannah Restaurants Corp. & Burger King Corporation. All rights reserved.
+						</h5>
+					</div>
+					<div class="col-sm-3" id="address">
+						<h6>
+							10 A Mall Court
+							<br> Savannah GA 31406
+							<br> (912)353-9090
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- Jquery and bootstrap js script tags -->
@@ -89,7 +338,10 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	 crossorigin="anonymous"></script>
 
-	 <script type="text/javascript" src="assets/javascript/nav-hover.js"></script>
+	<script type="text/javascript" src="assets/javascript/nav-hover.js"></script>
+	<script type="text/javascript" src="assets/javascript/google-maps-api.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTwgLjb5eQOz-QMA71i8fkutC5rXQPhq0&callback=initMap"
+	 type="text/javascript"></script>
 </body>
 
 </html>
