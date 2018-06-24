@@ -83,28 +83,112 @@ p {
 }
 
 
-.learn {
-    @include button-section-button ("../images/comment.png")
+.bk322 {
+    @include button-section-button ("../images/bk322.png")
 }
 
-.learn-active {
-    @include button-section-button-active (#eb000846, "../images/comment.png")
+.bk322-active {
+    @include button-section-button-active (#eb000846, "../images/bk322.png")
 }
 
-.careers {
-    @include button-section-button ("../images/burger.png")
+.bk521 {
+  @include button-section-button ("../images/bk521.png")
 }
 
-.careers-active {
-    @include button-section-button-active (#faaf184b, "../images/burger.png")
+.bk521-active {
+  @include button-section-button-active (#eb000846, "../images/bk521.png")
 }
 
-.locations {
-    @include button-section-button ("../images/map-x.png")
+.bk1226 {
+  @include button-section-button ("../images/bk1226.png")
 }
 
-.locations-active {
-    @include button-section-button-active (rgba(11, 55, 201, 0.2), "../images/map-x.png")
+.bk1226-active {
+  @include button-section-button-active (#eb000846, "../images/bk1226.png")
+}
+
+.bk1404 {
+  @include button-section-button ("../images/bk1404.png");
+}
+
+.bk1404-active {
+  @include button-section-button-active (#eb000846, "../images/bk1404.png")
+}
+
+.bk1551 {
+  @include button-section-button ("../images/bk1551.png")
+}
+
+.bk1551-active {
+  @include button-section-button-active (#eb000846, "../images/bk1551.png")
+}
+
+.bk15760 {
+  @include button-section-button ("../images/bk15760.png")
+}
+
+.bk15760-active {
+  @include button-section-button-active (#eb000846, "../images/bk15760.png")
+}
+
+.bk14614 {
+  @include button-section-button ("../images/bk14614.png")
+}
+
+.bk14614-active {
+  @include button-section-button-active (#eb000846, "../images/bk14614.png")
+}
+.bk9423 {
+  @include button-section-button ("../images/bk9423.png")
+}
+
+.bk9423-active {
+  @include button-section-button-active (#eb000846, "../images/bk9423.png")
+}
+.bk10893 {
+  @include button-section-button ("../images/bk10893.png")
+}
+
+.bk10893-active {
+  @include button-section-button-active (#eb000846, "../images/bk10893.png")
+}
+
+.bk16269 {
+  @include button-section-button ("../images/16269.png")
+}
+
+.bk16269-active {
+  @include button-section-button-active (#eb000846, "../images/16269.png")
+}
+
+.bk23049 {
+  @include button-section-button ("../images/bk23049.png")
+}
+
+.bk23049-active {
+  @include button-section-button-active (#eb000846, "../images/bk23049.png")
+}
+
+.location-row {
+  margin-bottom: 10px;
+
+  .section {
+    text-align: left;
+  }
+
+  h3, h4 {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    padding: 10px 30px;
+
+  }
+
+  .bk1404 {
+      h3, h4 {
+      padding: 10px 40px
+    }
+  }
 }
 
 .leadership-button, .careers-button {

@@ -104,19 +104,6 @@ h1 {
 .cta-btn {
   text-align: center; }
 
-.apply-button {
-  border: 4px solid #ee1d23;
-  font-family: 'bebas';
-  font-size: 32pt;
-  color: #ee1d23;
-  background: rgba(0, 0, 0, 0.363);
-  padding: 6px 24px;
-  margin-top: 16px;
-  margin-bottom: 4%; }
-  .apply-button:hover {
-    color: black;
-    background-color: #ee1d23; }
-
 .subheader {
   background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.15), transparent), #185494;
   text-align: center;
@@ -164,35 +151,127 @@ p {
   text-align: center;
   padding-bottom: 2%; }
 
-.learn {
-  background: url("../images/comment.png");
+.bk322 {
+  background: url("../images/bk322.png");
   background-size: cover;
   background-position: right bottom; }
 
-.learn-active {
-  background: linear-gradient(#eb000846, #eb000846), url("../images/comment.png");
+.bk322-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk322.png");
   background-size: cover;
   background-position: right bottom; }
 
-.careers {
-  background: url("../images/burger.png");
+.bk521 {
+  background: url("../images/bk521.png");
   background-size: cover;
   background-position: right bottom; }
 
-.careers-active {
-  background: linear-gradient(#faaf184b, #faaf184b), url("../images/burger.png");
+.bk521-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk521.png");
   background-size: cover;
   background-position: right bottom; }
 
-.locations {
-  background: url("../images/map-x.png");
+.bk1226 {
+  background: url("../images/bk1226.png");
   background-size: cover;
   background-position: right bottom; }
 
-.locations-active {
-  background: linear-gradient(rgba(11, 55, 201, 0.2), rgba(11, 55, 201, 0.2)), url("../images/map-x.png");
+.bk1226-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk1226.png");
   background-size: cover;
   background-position: right bottom; }
+
+.bk1404 {
+  background: url("../images/bk1404.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk1404-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk1404.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk1551 {
+  background: url("../images/bk1551.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk1551-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk1551.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk15760 {
+  background: url("../images/bk15760.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk15760-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk15760.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk14614 {
+  background: url("../images/bk14614.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk14614-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk14614.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk9423 {
+  background: url("../images/bk9423.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk9423-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk9423.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk10893 {
+  background: url("../images/bk10893.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk10893-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk10893.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk16269 {
+  background: url("../images/16269.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk16269-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/16269.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk23049 {
+  background: url("../images/bk23049.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.bk23049-active {
+  background: linear-gradient(#eb000846, #eb000846), url("../images/bk23049.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.location-row {
+  margin-bottom: 10px; }
+  .location-row .section {
+    text-align: left; }
+  .location-row h3, .location-row h4 {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    padding: 10px 30px; }
+  .location-row .bk1404 h3, .location-row .bk1404 h4 {
+    padding: 10px 40px; }
 
 .leadership-button, .careers-button {
   border: 4px solid #ee1d23;

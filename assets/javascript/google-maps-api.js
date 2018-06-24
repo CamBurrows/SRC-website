@@ -108,5 +108,40 @@ function initMap() {
   marker23049.addListener('click', function() {
     infowindow23049.open(map, marker23049);
   });
+
+  //listener for buttons
+  $('#322').addListener('click', function() {
+    infowindow322.open(map, marker322);
+  });
+  $('#521').addListener('click', function() {
+    infowindow521.open(map, marker521);
+  });
+  $('#1226').addListener('click', function() {
+    infowindow1226.open(map, marker1226);
+  });
+  $('#1404').addListener('click', function() {
+    infowindow1404.open(map, marker1404);
+  });
+  $('#1551').addListener('click', function() {
+    infowindow1551.open(map, marker1551);
+  });
+  $('#15760').addListener('click', function() {
+    infowindow15760.open(map, marker15760);
+  });
+  $('#14614').addListener('click', function() {
+    infowindow14614.open(map, marker14614);
+  });
+  $('#9423').addListener('click', function() {
+    infowindow9423.open(map, marker9423);
+  });
+  $('#10893').addListener('click', function() {
+    infowindow10893.open(map, marker10893);
+  });
+  $('#16296').addListener('click', function() {
+    infowindow16296.open(map, marker16296);
+  });
+  $('#23049').addListener('click', function() {
+    infowindow23049.open(map, marker23049);
+  });
 }
    
