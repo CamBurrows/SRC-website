@@ -71,9 +71,11 @@ $("#23049").hover(function () {
   $(".bk23049").removeClass("bk23049-active")
 })
     
-
+$("#careers-id").hover(function () {
+  $(".careers").addClass("careers-active")
+}, function () {
+  $(".careers").removeClass("careers-active")
+})
   
-
-   
 
 })

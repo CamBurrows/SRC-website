@@ -270,7 +270,7 @@ p {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: left;
     padding: 10px 30px; }
-  .location-row .bk1404 h3, .location-row .bk1404 h4 {
+  .location-row .bk1404 h3, .location-row .bk1404 h4, .location-row .bk521 h3, .location-row .bk521 h4, .location-row .bk1226 h3, .location-row .bk1226 h4 {
     padding: 10px 40px; }
 
 .leadership-button, .careers-button {
@@ -296,5 +296,15 @@ p {
   width: inherit; }
   .button-link:hover {
     text-decoration: none; }
+
+.careers {
+  background: url("../images/happy-guy.png");
+  background-size: cover;
+  background-position: right bottom; }
+
+.careers-active {
+  background: linear-gradient(#faaf184b, #faaf184b), url("../images/happy-guy.png");
+  background-size: cover;
+  background-position: right bottom; }
 
 /*# sourceMappingURL=locations.css.map */

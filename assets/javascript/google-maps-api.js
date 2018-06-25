@@ -110,37 +110,37 @@ function initMap() {
   });
 
   //listener for buttons
-  $('#322').addListener('click', function() {
-    infowindow322.open(map, marker322);
+  $('#322').on('click', function() {
+    infowindow332.open(map, marker332);
   });
-  $('#521').addListener('click', function() {
+  $('#521').on('click', function() {
     infowindow521.open(map, marker521);
   });
-  $('#1226').addListener('click', function() {
+  $('#1226').on('click', function() {
     infowindow1226.open(map, marker1226);
   });
-  $('#1404').addListener('click', function() {
+  $('#1404').on('click', function() {
     infowindow1404.open(map, marker1404);
   });
-  $('#1551').addListener('click', function() {
+  $('#1551').on('click', function() {
     infowindow1551.open(map, marker1551);
   });
-  $('#15760').addListener('click', function() {
+  $('#15760').on('click', function() {
     infowindow15760.open(map, marker15760);
   });
-  $('#14614').addListener('click', function() {
+  $('#14614').on('click', function() {
     infowindow14614.open(map, marker14614);
   });
-  $('#9423').addListener('click', function() {
+  $('#9423').on('click', function() {
     infowindow9423.open(map, marker9423);
   });
-  $('#10893').addListener('click', function() {
+  $('#10893').on('click', function() {
     infowindow10893.open(map, marker10893);
   });
-  $('#16296').addListener('click', function() {
+  $('#16296').on('click', function() {
     infowindow16296.open(map, marker16296);
   });
-  $('#23049').addListener('click', function() {
+  $('#23049').on('click', function() {
     infowindow23049.open(map, marker23049);
   });
 }

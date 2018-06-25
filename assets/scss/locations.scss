@@ -184,7 +184,7 @@ p {
 
   }
 
-  .bk1404 {
+  .bk1404, .bk521, .bk1226 {
       h3, h4 {
       padding: 10px 40px
     }
@@ -208,4 +208,12 @@ p {
     &:hover {
         text-decoration: none
     }
+}
+
+.careers {
+  @include button-section-button ("../images/happy-guy.png")
+}
+
+.careers-active {
+  @include button-section-button-active (#faaf184b, "../images/happy-guy.png")
 }
