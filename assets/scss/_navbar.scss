@@ -1,4 +1,7 @@
 nav {
+    
+
+    
     a {
         font-family: 'bebas';
         font-size: 18pt;
@@ -17,4 +20,10 @@ nav {
         padding-bottom: 5px
     }
 
+}
+
+.navbar-toggler {
+    @media (max-width: 760px){
+        margin: 0px auto
+    }
 }

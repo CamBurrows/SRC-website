@@ -11,13 +11,22 @@ $primary-blue: #185494;
 h1 {
     font-family: 'bebas';
     color: white;
-    font-size: 72pt
+    font-size: 72pt;
+
+    @media (max-width: 991px){
+        font-size: 40pt;
+        margin-top: 24px;
+    }
 }
 
 h2 {
     font-family: 'proxima-nova-light';
     color: white;
-    font-size: 26pt
+    font-size: 26pt;
+
+    @media (max-width: 760px){
+        font-size: 16pt
+    }
 }
 
 .hero {
@@ -26,6 +35,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    @media screen and (max-width: 991px){
+        background-position-x: 75%
+    }
 }
 
 .hero-caption {
@@ -97,3 +110,6 @@ h2 {
     }
 }
 
+.r-symbol {
+    font-size: 18pt
+}

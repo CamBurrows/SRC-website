@@ -9,7 +9,10 @@ $primary-yellow: #faaf18;
 $primary-blue: #185494;
 
 .container {
-    max-width: 80%
+    max-width: 80%;
+    @media(max-width: 760px){
+        max-width: 90%;
+    }
 }
 
 h1 {
@@ -17,7 +20,10 @@ h1 {
     color: white;
     font-size: 50pt;
     margin-bottom: 8px;
-    margin-top: 8px
+    margin-top: 8px;
+    @media(max-width: 760px){
+        font-size: 38pt;
+    }
 }
 
 .subheader {
@@ -61,16 +67,29 @@ p {
 
 .hero-caption {
     padding-top: 4%;
-    padding-bottom: 6%
+    padding-bottom: 6%;
+
+    @media (max-width: 760px){
+        padding-bottom: 20%
+    }
+
 }
 
 .hero-caption2 {
-    padding-bottom: 6%
+    padding-bottom: 6%;
+
+    @media (max-width: 760px){
+        padding-bottom: 20%
+    }
 }
 
 .headshot-container {
     text-align: center;
-    padding-bottom: 4%
+    padding-bottom: 4%;
+
+    @media (max-width: 991px){
+        padding-bottom: 0% !important
+    }
 }
 
 
@@ -83,11 +102,11 @@ p {
 }
 
 .careers {
-    @include button-section-button ("../images/burger.png")
+    @include button-section-button ("../images/happy-guy.png")
 }
 
 .careers-active {
-    @include button-section-button-active (#faaf184b, "../images/burger.png")
+    @include button-section-button-active (#faaf184b, "../images/happy-guy.png")
 }
 
 .locations {
@@ -106,7 +125,11 @@ p {
     display: block;
     width: inherit;
     padding: 6px 0px 6px 12px;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+
+    @media (max-width: 991px) {
+        font-size: 18pt
+    }
 }
 
 .button-link {

@@ -17,7 +17,7 @@ h1 {
     color: white;
     font-size: 50pt;
     margin-bottom: 8px;
-    margin-top: 8px
+    margin-top: 8px;
 }
 
 h2 {
@@ -45,6 +45,10 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    // @media screen and (max-width: 991px){
+    //     background-position-x: 75%
+    // }
 }
 
 .button-link {
@@ -69,7 +73,10 @@ p {
 }
 
 .hero-buttons {
-    padding-top: 9%
+    padding-top: 9%;
+    @media (max-width: 991px) {
+        text-align: center;
+    }
 }
 
 .learn {
@@ -81,11 +88,11 @@ p {
 }
 
 .careers {
-    @include button-section-button ("../images/burger.png")
+    @include button-section-button ("../images/happy-guy.png")
 }
 
 .careers-active {
-    @include button-section-button-active (#faaf184b, "../images/burger.png")
+    @include button-section-button-active (#faaf184b, "../images/happy-guy.png")
 }
 
 .locations {
@@ -103,11 +110,34 @@ p {
     font-size: 22pt;
     padding: 8px 0px 8px 12px;
     display: block;
-    width: inherit
+    width: inherit;
+
+    @media(max-width: 991px){
+        width: auto;
+        display: inline-block;
+        width: 40%;
+    }
+
+    @media(max-width: 991px){
+        width: 100%;
+        display: block;
+    }
+}
+
+.leadership-button {
+    @media(max-width: 991px){
+        vertical-align: top;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
 }
 
 .careers-button {
-    margin-top: 34%
+    margin-top: 34%;
+
+    @media(max-width: 991px){
+        margin-top: 0%
+    }
 }
 
 @media (min-width: 1640px) {

@@ -137,8 +137,8 @@ function initMap() {
   $('#10893').on('click', function() {
     infowindow10893.open(map, marker10893);
   });
-  $('#16296').on('click', function() {
-    infowindow16296.open(map, marker16296);
+  $('#16269').on('click', function() {
+    infowindow16269.open(map, marker16269);
   });
   $('#23049').on('click', function() {
     infowindow23049.open(map, marker23049);

@@ -172,6 +172,11 @@ p {
 .location-row {
   margin-bottom: 10px;
 
+  @media(max-width: 760px){
+    margin-bottom: 0px
+  }
+
+
   .section {
     text-align: left;
   }
@@ -182,11 +187,19 @@ p {
     text-align: left;
     padding: 10px 30px;
 
+    @media(max-width: 991px){
+      padding: 10px 15px
+    }
+
   }
 
   .bk1404, .bk521, .bk1226 {
       h3, h4 {
-      padding: 10px 40px
+      padding: 10px 40px;
+      @media(max-width: 991px){
+        padding: 10px 15px
+      }
+
     }
   }
 }
@@ -216,4 +229,8 @@ p {
 
 .careers-active {
   @include button-section-button-active (#faaf184b, "../images/happy-guy.png")
+}
+
+.location-page-career-tab {
+  font-size: 18px !important
 }
